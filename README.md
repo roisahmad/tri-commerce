@@ -1,6 +1,6 @@
-Nama: Ahmad Lutfi Rois
-Email: ahmadlutfirois@gmail.com
-No. Hp: 087760280832
+### - Nama: Ahmad Lutfi Rois
+### - Email: ahmadlutfirois@gmail.com
+### - No. Hp: 087760280832
 
 # Tripay E-Commerce
 
