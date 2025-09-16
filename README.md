@@ -17,27 +17,39 @@ cd repo-xyz
 ```
 #### Backend
 ```
-- git checkout backend
-- composer install
-- cp .env.example .env
-- php artisan key:generate
-- create database in local 'CREATE DATABASE nama_database;'
-- change database connection
+- Checkout branch
+  git checkout backend
+- Instal dependency
+  composer install
+- Membuat file .env dan isinya dengan copy file .env.example
+  cp .env.example .env
+- Generate key
+  php artisan key:generate
+- membuat database baru di local
+  'CREATE DATABASE nama_database;'
+- Mengubah koneksi database
   DB_CONNECTION=mysql
   DB_HOST=127.0.0.1
   DB_PORT=3306
   DB_DATABASE=nama_database
   DB_USERNAME=root
   DB_PASSWORD=
-- php artisan migrate
-- php artisan serve
+- Migrasi
+  php artisan migrate
+- Run
+  php artisan serve
 ```
 
 #### Frontend
 ```
-- git checkout frontend
-- yarn / npm install
-- yarn dev / npm run dev
+- Checkout branch
+  git checkout frontend
+- Instal dependency
+  yarn / npm install
+- Membuat file .env dengan isi:
+  API_BASE_URL=http://localhost:8000/api
+- Run
+  yarn dev / npm run dev
 ```
 
 
