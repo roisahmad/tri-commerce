@@ -1,9 +1,13 @@
+Nama: Ahmad Lutfi Rois
+Email: ahmadlutfirois@gmail.com
+No. Hp: 087760280832
+
 # Tripay E-Commerce
 
 Terdapat 3 branch utama:
 - **main** → hanya berisi dokumentasi (README ini).
 - **frontend** → aplikasi **Nuxt 4**.
-- **backend** → aplikasi **Laravel** + database MySQL.
+- **backend** → aplikasi **Laravel 12** + database **MySQL**.
 
 ---
 
